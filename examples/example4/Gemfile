@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+gem 'slim'
+gem 'padrino-tutorial', path: '../..'
+gem 'padrino', github: 'padrino/padrino-framework'
+gem 'rabl'
+gem 'oj'

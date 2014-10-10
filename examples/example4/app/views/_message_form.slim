@@ -1,0 +1,6 @@
+= form_for @message, @action, method: @method do |f|
+  = f.text_area :what
+  br
+  = f.text_field :who, placeholder: 'Who'
+  br
+  = f.submit

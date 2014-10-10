@@ -1,0 +1,5 @@
+ul
+  - space.each do |message|
+    li = partial :message, locals: {message: message}
+
+= partial :message_form
